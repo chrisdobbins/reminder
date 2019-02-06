@@ -5,10 +5,10 @@ This is a Python command-line application that uses `at` and the Twilio API to s
 
 ## How to use it
 You must set the following environment variables ahead of time:
-`$TO_NUM`
-`$FROM_NUM`
-`$SID`: your Twilio SID
-`$TKN`: your Twilio token
+* `$TO_NUM`
+* `$FROM_NUM`
+* `$SID`: your Twilio SID
+* `$TKN`: your Twilio token
 
 The general format is this: `send_once.py --msg "at HH:mm, <message here>"`.
 The time indicates when to send the message. Please note that the time must be in 24-hour format.
